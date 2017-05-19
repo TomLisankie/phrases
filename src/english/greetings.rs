@@ -1,4 +1,4 @@
 
-fn hello() {
-    "Hello".to_string();
+pub fn hello() -> String {
+    "Hello".to_string()
 }

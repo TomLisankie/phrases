@@ -1,4 +1,4 @@
 
-fn goodbye() {
-    "さようなら".to_string();
+pub fn goodbye() -> String {
+    "さようなら".to_string()
 }
